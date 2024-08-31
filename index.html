@@ -11,6 +11,8 @@
         <h1>Vape Usage Tracker</h1>
     </header>
     <main>
+	
+		<!-- Create New Vape Section -->
         <section id="new-vape">
             <h2>Create New Vape</h2>
             <form id="new-vape-form">
@@ -26,13 +28,18 @@
                 <button type="button" onclick="createNewVape()">Create Vape</button>
             </form>
         </section>
+		
+		<!-- Vape Section -->
         <section id="vape-list-section">
             <h2>Your Vapes</h2>
             <div id="vape-list"></div>
         </section>
+		
+		<!-- Vape Level Buttons -->
         <section id="tracker">
             <h2>Track Your Vape Usage</h2>
             <div id="level-buttons">
+				<button type="button" onclick="logUsage(0)">Level 0</button>
                 <button type="button" onclick="logUsage(1)">Level 1</button>
                 <button type="button" onclick="logUsage(2)">Level 2</button>
                 <button type="button" onclick="logUsage(3)">Level 3</button>
