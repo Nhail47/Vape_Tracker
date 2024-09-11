@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vape Usage Tracker</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
     <header>
-        <h1>Vape Usage Tracker</h1>
+      <h1>Vape Usage Tracker</h1>
     </header>
     <main>
-	
-		<!-- Create New Vape Section -->
-        <section id="new-vape">
-            <h2>Create New Vape</h2>
-            <form id="new-vape-form">
-                <label for="initial-level">Initial Juice Level:</label>
-                <select id="initial-level">
-                    <option value="6" selected>Level 6</option>
-                    <option value="5">Level 5</option>
-                    <option value="4">Level 4</option>
-                    <option value="3">Level 3</option>
-                    <option value="2">Level 2</option>
-                    <option value="1">Level 1</option>
-                </select>
-                <button type="button" onclick="createNewVape()">Create Vape</button>
-            </form>
-        </section>
-		
-		<!-- Vape Section -->
-        <section id="vape-list-section">
-            <h2>Your Vapes</h2>
-            <div id="vape-list"></div>
-        </section>
-		
-		<!-- Vape Level Buttons -->
-        <section id="tracker">
-            <h2>Track Your Vape Usage</h2>
-            <div id="level-buttons">
-				<button type="button" onclick="logUsage(0)">Level 0</button>
-                <button type="button" onclick="logUsage(1)">Level 1</button>
-                <button type="button" onclick="logUsage(2)">Level 2</button>
-                <button type="button" onclick="logUsage(3)">Level 3</button>
-                <button type="button" onclick="logUsage(4)">Level 4</button>
-                <button type="button" onclick="logUsage(5)">Level 5</button>
-                <button type="button" onclick="logUsage(6)">Level 6</button>
-            </div>
-            <div id="current-level">
-                <h3>Current Juice Level:</h3>
-                <p id="level-display">Level 6</p>
-            </div>
-            <button type="button" onclick="resetVape()">Reset Vape</button>
-        </section>
-        <section id="history">
-            <h2>Usage History</h2>
-            <ul id="history-list"></ul>
-        </section>
+      <!-- Create New Vape Section -->
+      <section id="new-vape">
+        <h2>Create New Vape</h2>
+        <form id="new-vape-form">
+          <label for="initial-level">Initial Juice Level:</label>
+          <select id="initial-level">
+            <option value="6" selected>Level 6</option>
+            <option value="5">Level 5</option>
+            <option value="4">Level 4</option>
+            <option value="3">Level 3</option>
+            <option value="2">Level 2</option>
+            <option value="1">Level 1</option>
+          </select>
+          <button type="button" onclick="createNewVape()">Create Vape</button>
+        </form>
+      </section>
+
+      <!-- Vape Section -->
+      <section id="vape-list-section">
+        <h2>Your Vapes</h2>
+        <div id="vape-list"></div>
+      </section>
+
+      <!-- Vape Level Buttons -->
+      <section id="tracker">
+        <h2>Track Your Vape Usage</h2>
+        <div id="level-buttons">
+          <button type="button" onclick="logUsage(0)">Level 0</button>
+          <button type="button" onclick="logUsage(1)">Level 1</button>
+          <button type="button" onclick="logUsage(2)">Level 2</button>
+          <button type="button" onclick="logUsage(3)">Level 3</button>
+          <button type="button" onclick="logUsage(4)">Level 4</button>
+          <button type="button" onclick="logUsage(5)">Level 5</button>
+          <button type="button" onclick="logUsage(6)">Level 6</button>
+        </div>
+        <div id="current-level">
+          <h3>Current Juice Level:</h3>
+          <p id="level-display">Level 6</p>
+        </div>
+        <button type="button" onclick="resetVape()">Reset Vape</button>
+      </section>
+      <section id="history">
+        <h2>Usage History</h2>
+        <ul id="history-list"></ul>
+      </section>
     </main>
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>

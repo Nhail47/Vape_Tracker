@@ -1,83 +1,86 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 1em 0;
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 0;
 }
 
 main {
-    padding: 2em;
+  padding: 2em;
 }
 
 h1 {
-	color: #FFFFFF;
+  color: #ffffff;
 }
 
 h2 {
-    color: #333;
+  color: #333;
 }
 
-#new-vape, #vape-list-section, #tracker, #history {
-    background-color: white;
-    padding: 1em;
-    margin-bottom: 2em;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#new-vape,
+#vape-list-section,
+#tracker,
+#history {
+  background-color: white;
+  padding: 1em;
+  margin-bottom: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 #current-level {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 button {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 0.5em 1em;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 #level-buttons button {
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 #level-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
 }
 
 .vape-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
 }
 
 .delete-button {
-    background-color: red;
-    margin-left: 0.5em;
+  background-color: red;
+  margin-left: 0.5em;
 }
 
 button.active {
-    background-color: #007bff;
-    color: white;
+  background-color: #007bff;
+  color: white;
 }
